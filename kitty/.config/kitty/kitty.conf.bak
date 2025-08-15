@@ -1,0 +1,62 @@
+font_size 20.0
+
+#[Cursor]
+# cursor #ff0000
+cursor_shape beam
+cursor_beam_thickness 1.5
+cursor_underline_thickness 2.0
+cursor_blink_interval 0
+# cursor_text_color #ff0000
+
+#[Window Layout]
+
+remember_window_size  yes
+initial_window_width  640
+initial_window_height 400
+#remember_window_position yes
+enabled_layouts grid
+window_border_width 0.5pt
+#window_padding_width 100
+#window_margin_width 10
+#placement_strategy center
+# active_border_color #00ff00
+
+#[Tab Bar]
+
+tab_bar_edge top
+tab_bar_margin_width 10
+tab_bar_margin_height 5.0 5.0
+tab_bar_style powerline
+tab_bar_align center
+
+#tab_bar_background #ff0000
+
+#[COLOR SCHEME]
+# foreground #ffffff
+# background #000000
+background_opacity 0.10
+background_blur 10
+
+#[COLOR TABLE
+# color0  #000000
+# color1  #ff0000
+# color2  #00ff00
+# color3  #ffff00
+# color4  #0000ff
+# color5  #ff00ff
+# color6  #00ffff
+# color7  #ffffff
+# color8  #555555
+# color9  #ff5555
+# color10 #55ff55
+# color11 #ffff55
+# color12 #5555ff
+# color13 #ff55ff
+# color14 #55ffff
+# color15 #eeeeee
+
+
+# BEGIN_KITTY_THEME
+# 1984 Orwellian
+include current-theme.conf
+# END_KITTY_THEME
