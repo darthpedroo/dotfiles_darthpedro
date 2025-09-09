@@ -20,3 +20,11 @@ Ejemplo 2:
 kitty/.config/kitty
 ```
 Este paquete se llama kitty y sincroniza la carpeta "kitty" que se encuentra en .config/kitty. Sincroniza todos los archivos dentro de esa carpeta
+
+## Como ejecutar
+
+stow bashrc
+stow kitty
+stow vscode
+stow wallpapers
+( y el resto de los paquetes )
