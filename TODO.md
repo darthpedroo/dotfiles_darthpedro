@@ -1,8 +1,8 @@
 # TODO
 
-- [] Plasma x11
+- [x] Plasma x11
 - [] Docker
-- [] Unificar todo en un solo script
+- [x] Unificar todo en un solo script
 - [] Testear
 
 ## Kde
