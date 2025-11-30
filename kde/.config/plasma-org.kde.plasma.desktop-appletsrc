@@ -39,7 +39,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][26][Applets][27][Configuration]
 PreloadWeight=100
-popupHeight=511
+popupHeight=516
 popupWidth=647
 
 [Containments][26][Applets][27][Configuration][General]
@@ -54,7 +54,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][26][Applets][29][Configuration][General]
-launchers=preferred://browser
+launchers=
 
 [Containments][26][Applets][30]
 immutability=1

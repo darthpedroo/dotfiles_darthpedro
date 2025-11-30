@@ -15,4 +15,11 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 sudo pacman -S base-devel
 makepkg -si
-rm -rf yay-bin
+
+echo "Deleting yay-bin directory..."
+cd "$SCRIPT_DIR"  # Ensure we're back in the script directory
+if [ -d "yay-bin" ]; then
+    sudo rm -rf yay-bin
+else
+    echo "yay-bin directory not found!"
+fi
