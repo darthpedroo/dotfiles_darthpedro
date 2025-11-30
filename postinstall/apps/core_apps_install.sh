@@ -1,6 +1,6 @@
 #Apps that are required for the dotfiles to work.
 
-sudo pacman -S git stow
+sudo pacman -S git stow lsd
 
 # Installing yay
 git clone https://aur.archlinux.org/yay-bin.git
