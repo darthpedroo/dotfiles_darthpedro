@@ -1,1 +1,2 @@
-sudo pacman -S firefox
+# Common apps
+sudo pacman -S firefox kitty qbittorrent kdenlive

@@ -1,0 +1,8 @@
+# A list of dev apps
+
+- dbeaver
+- postman
+- vscode
+- docker
+	va a requerir un postinstall especifico
+
