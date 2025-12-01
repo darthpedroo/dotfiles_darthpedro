@@ -17,3 +17,12 @@ do
    yay -S "$LINE" --noconfirm
 done < "$INFILE"
 
+# Install docker
+
+sudo pacman -S docker
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+sudo gpasswd -a porky docker
+sudo pacman -S docker-compose
+# after this, a reboot is required.
+
