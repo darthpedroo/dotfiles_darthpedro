@@ -6,6 +6,8 @@
 #     https://vivien.github.io/i3blocks
 
 # Global properties
+#PATH=$PATH:/home/porky/.config/scripts
+SCRIPT_DIR=/home/porky/.config/scripts
 separator=true
 separator_block_width=15
 
@@ -16,7 +18,7 @@ command=xdg-open "$website"
 color=#f12711
 
 [quote]
-command=curl -s 'https://stoic-quotes.com/api/quote' | jq -r '.text'
+command=$SCRIPT_DIR/stoic_quote.sh
 interval=300
 color=#88b090
 
