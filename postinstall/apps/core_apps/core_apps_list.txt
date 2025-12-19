@@ -1,5 +1,7 @@
 git
 lsd
+feh
+i3blocks
 stow
 plasma-x11-session
 cowsay
