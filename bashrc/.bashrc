@@ -4,3 +4,5 @@ alias ls='lsd'
 alias ll='ls -la'
 alias la='ls -a'
 alias vim='nvim'
+
+export PATH="$HOME/.config/scripts:$PATH"
