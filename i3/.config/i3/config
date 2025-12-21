@@ -56,7 +56,13 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym Mod1+Return exec kitty
 
+# start firefox
 bindsym Mod1+b exec firefox
+
+# Switch workspaces
+bindsym Mod1+m workspace next
+bindsym Mod1+n workspace prev 
+bindsym Mod1+Tab workspace back_and_forth
 
 # kill focused window
 bindsym Mod1+Shift+q kill
