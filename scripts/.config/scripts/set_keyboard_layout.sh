@@ -1,0 +1,2 @@
+setxkbmap -model pc105 -layout latam -variant deadtilde
+

@@ -22,6 +22,13 @@ command=$SCRIPT_DIR/stoic_quote.sh
 interval=300
 color=#88b090
 
+[tati]
+command=echo "tati te ama"
+interval=1
+color=#ffc0cb
+
+
+
 [time]
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=1
