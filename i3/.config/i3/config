@@ -59,6 +59,10 @@ bindsym Mod1+Return exec kitty
 # start firefox
 bindsym Mod1+b exec firefox
 
+# screenshot
+
+bindsym Print exec spectacle
+
 # Switch workspaces
 bindsym Mod1+m workspace next
 bindsym Mod1+n workspace prev 
