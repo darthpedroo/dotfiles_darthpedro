@@ -8,9 +8,10 @@ services:
       - TZ=Etc/UTC
     volumes:
       - ./config_jellyfin:/config
-      - ./media_jellyfin/tvseries:/data/tvshows
-      - ./media_jellyfin/movies:/data/movies
+      - ${MEDIA_SERIES}:/data/tvshows
+      - ${MEDIA_MOVIES}:/data/movies
+      - ${MEDIA_VIDEOS}:/data/videos
     ports:
-      - 8096:8096
+        - 8096:8096
     restart: unless-stopped
 
