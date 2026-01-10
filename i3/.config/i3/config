@@ -46,6 +46,10 @@ set $down k
 set $left j
 set $right semicolon
 
+# Wallpaper
+
+exec_always feh --bg-fill --randomize /home/porky/wallpapers
+
 # use Mouse+Mod1 to drag floating windows to their wanted position
 floating_modifier Mod1
 
